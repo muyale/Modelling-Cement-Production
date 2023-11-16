@@ -14,9 +14,11 @@ I first imported my dependencies and loaded my dataset
 ![Introduction](https://github.com/muyale/Modelling-Cement-Production/assets/111242297/a956ec83-0c9b-4996-9564-115b0ed806e4)
 
 The next step was to find out basic statistical information :
+
 ![Describe](https://github.com/muyale/Modelling-Cement-Production/assets/111242297/a1dec766-686d-436e-a620-5a285e006944)
 
 After knowing the statistical information ,I proceeded to data analaysis. To work faster I created a custom function to avoid repetition of code ,then uses Python loop to iterate through my columns 
+
 ![Custom Function and EDA](https://github.com/muyale/Modelling-Cement-Production/assets/111242297/3abaac6b-2b77-468e-8563-632f7249a091)
 
 Here is the EDA in action , a histogram .For histograms we deal with univariate data where we use the frequency of one variable as a measure 
@@ -24,22 +26,27 @@ Here is the EDA in action , a histogram .For histograms we deal with univariate 
 ![Eda in Action](https://github.com/muyale/Modelling-Cement-Production/assets/111242297/75b5ab30-3941-4964-860f-3f1735939c3c)
 
 Heres the distribution of Coarse aggregate distribution :
+
 ![Eda in action 2](https://github.com/muyale/Modelling-Cement-Production/assets/111242297/7a508b80-1b60-4b01-ad3e-1ee96342d8c2)\
 
  Correlations are really important in Regression ,choosing  highly correlated variables ensures that we come up a good model.
 
  ![Getting correlation](https://github.com/muyale/Modelling-Cement-Production/assets/111242297/2db8099f-1ea9-44c1-8064-134577419a68)
 
-I created a heatmap to clearly show my correlations 
+I created a heatmap to clearly show my correlations
+
 ![Correlation Heatmap](https://github.com/muyale/Modelling-Cement-Production/assets/111242297/b085c727-3ecd-49f6-b537-c31ba2974cb9)
 
 Before feeding data into our machine learning model we are supposed to choose the feature and target variables which I did . I then proceeded to scale my data ,to improve model efficiency
+
 ![Train test split and scaling data](https://github.com/muyale/Modelling-Cement-Production/assets/111242297/e5f0583e-f49d-43e7-a321-46b738cc6551)
 
  I chose Linear Regression and XGBoost Regression as my machine learning models.XGBoost stands for Extreme Gradient Boosting, is a gradient-boosted decision tree (GBDT) machine learning library. It provides parallel tree boosting and is the leading machine learning library for regression.
+ 
  ![Machine Learning](https://github.com/muyale/Modelling-Cement-Production/assets/111242297/68840541-a514-40da-b142-9bac44efbfab)
 
 #Conclusion 
+
 XGBoost outperformed ordinary Linear Regression and is hence the best one to predict cement strenght .
 
 
@@ -48,5 +55,6 @@ XGBoost outperformed ordinary Linear Regression and is hence the best one to pre
 
 
  REFERENCES 
+ 
  https://pavementinteractive.org/reference-desk/materials/portland-cement/portland-cement-strength/
  https://reinforcingsteelcontractors.co.za/cement-strength-classes-and-what-they-mean/
